@@ -84,6 +84,6 @@ input[name="fruits"]:checked{
 #div1 + div {
     background-color: antiquewhite;
 }
-#div3 ~ div {
+#div ~ div {
     background-color: blue;
 }
