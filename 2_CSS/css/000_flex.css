@@ -1,25 +1,30 @@
-.container {
-    border: 1px solid black;
+
+.container-2 {
     width: 500px;
     height: 500px;
+    border: 1px solid black;
 }
 
-
-.container tr:last-child td:first-child,
-.container tr:last-child td:first-child(2),
-.container tr:last-child(4) td:first-child,
-.container tr:last-child(3) td:first-child
+.container-2 tr:last-child td:first-child,
+/* 아래의 열에서 부터 첫번째 행 */
+.container-2 tr:last-child td:nth-child(2),
+/* 아래의 열에서 부터 두번째 행 */
+.container-2 tr:nth-child(4) td:first-child,
+/* 위에 열 4번째 첫 행 */
+.container-2 tr:nth-child(3) td:first-child 
+/* 위에 열 3번째의 첫 행 */
 {
-    background-color: brown;
+    background-color: red;
 }
 
-
-
-
-.container tr:nth-child(4) td:first-child,(2)
-.container tr:nth-child(4) td:first-child(3),
-.container tr:last-child td:first-child(3),
-.container tr:last-child td:first-child(4)
+.container-2 tr:nth-child(4) td:nth-child(2), 
+/* 4번째 열에서 2번째 행 */
+.container-2 tr:nth-child(4) td:nth-child(3), 
+/* 4번째 열에서 3번째 행  */
+.container-2 tr:last-child td:nth-child(3),
+/* 마지막 열에서 부터 행 3칸이동 */
+.container-2 tr:last-child td:nth-child(4) 
+/* 마지막 열에서 부터 행 4칸이동 */
 {
-    background-color: rgb(168, 127, 127);
+    background-color: green;
 }
