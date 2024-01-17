@@ -1,0 +1,25 @@
+.container {
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+}
+
+
+.container tr:last-child td:first-child,
+.container tr:last-child td:first-child(2),
+.container tr:last-child(4) td:first-child,
+.container tr:last-child(3) td:first-child
+{
+    background-color: brown;
+}
+
+
+
+
+.container tr:nth-child(4) td:first-child,(2)
+.container tr:nth-child(4) td:first-child(3),
+.container tr:last-child td:first-child(3),
+.container tr:last-child td:first-child(4)
+{
+    background-color: rgb(168, 127, 127);
+}

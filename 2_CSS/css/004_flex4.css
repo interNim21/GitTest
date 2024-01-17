@@ -1,0 +1,48 @@
+div{
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.containers {
+    display: flex;
+
+    width: 800px;
+    height: 600px;
+    flex-direction: column;
+}
+.conts1,.conts3{
+
+   display: flex;
+   flex-basis: 20%;
+   background-color: antiquewhite;
+}
+.conts2 {
+    display: flex;
+    flex-basis: 60%;
+    flex-direction: row-reverse;
+
+}
+.conts2-1{
+    display: flex;
+    flex-basis: 66%;
+    background-color: gold;
+    justify-content: space-between;
+    align-items: end;
+
+}
+
+.item {
+    width: 150px;
+    height: 150px;
+
+}
+
+
+
+
+
+
+
+
+
+

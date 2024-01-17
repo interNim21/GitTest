@@ -1,0 +1,35 @@
+div {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.vs {
+    display: flex;
+
+    width: 700px;
+    height: 500px;
+    background-color: yellow;
+
+    flex-direction: column-reverse;
+}
+
+
+
+.vs1{
+    display: flex;
+    flex-basis: 70%;
+    flex-direction: row;
+    background-color: red;
+}
+.vs1-1{
+    flex-basis: 30%;
+    background-color: hotpink;
+}
+
+.vs1-2 {
+    flex-basis: 50%;
+    background-color: antiquewhite;
+    
+}
+
+
