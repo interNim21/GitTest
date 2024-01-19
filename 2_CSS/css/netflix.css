@@ -1,0 +1,142 @@
+* {
+    color: white;
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+
+     /* border: 1px solid ;  */
+}
+
+.container {
+    background-color: black;
+    height: 100%;    
+    /* 보이는 높이 100 */
+}
+
+#jpges {
+    width: 50px;
+}
+
+nav{
+    height: 20px;
+    display: flex;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    flex-basis: 75%;   
+}
+
+nav > ul > li {
+    text-align: center;
+    line-height: 60px;
+    margin: 0 15px;
+}
+
+.iconbox {
+    display: flex;
+    flex-basis: 20%;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav > a:first-child {
+    flex-basis: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    background-image: url(/01_Webfront/images/netflix/back.jpg);
+    width: 100vw;
+    height: 500vw;
+
+
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.tltle-box {
+    border: 1px solid red;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+
+    padding: 50px;
+}
+
+.title-box > h1 {
+    font-size: 50px;
+
+}
+
+.title-box > p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.title-box-btn {
+    margin-top: 50px;
+}
+.title-box-btn > button {
+    color: black;
+    padding: 10px 50px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.title-box-btn > button:last-child {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+
+.contents-box > section {
+    border: 1px solid red;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.contents-box img {
+    width: 200px;
+}
+
+.contents-box p {
+    font-size: 150px;
+    font-weight: bold;
+    -webkit-text-stroke:5px white;
+    /* 웹킷달리면 크롬에서 작동 */
+    color: black;
+
+    position: absolute;
+    bottom: 0;
+    left: -50px;
+}
+
+.contents-box > section {
+    display: flex;
+}
+
+.contents-box > h2 {
+    padding:10px 50px;
+}
+
+.poster-box {
+    position:  relative;
+    border: 1px;
+
+    margin: 0 50px;
+
+}

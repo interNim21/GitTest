@@ -1,0 +1,98 @@
+* {
+    /* border: 1px solid antiquewhite;   */
+    box-sizing: border-box;
+}
+
+.sect1{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    background-color: ;
+}
+
+.sect1 > .temaText > .textborn {
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+section > span:first-child{
+
+    flex-basis: 20%;
+    border: 1px solid antiquewhite;
+}
+
+section > .cartegori-icon > .bookmark {
+    border: 1px solid antiquewhite;
+}
+
+section > span:nth-of-type(2) {
+    flex-basis: 60%;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    
+}
+
+.sect1 > .cartegori-icon > .bookmark {
+
+    height: 35px;
+    width: 35px;
+}
+
+.sect1 > .cartegori-icon {
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sect1 > .pofile-icon > .pofile {
+    height: 50px;
+    width: 50px;
+
+    border: 3px solid skyblue;
+    border-radius: 50%;
+}
+
+
+.sect2 {
+    display: flex;
+    height: 500px;
+    background: whitesmoke;
+}
+
+
+
+
+.sect2 > div:first-child {
+    
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}
+
+.sect2 > .customizing > .backg {
+    display: flex;
+    background-image: url(/01_Webfront/images/logo/back.jpg);
+    background-size: cover;
+
+}
+
+.sect3{
+    display: flex;
+    height: 40px;
+    width: 50%;
+}
+
+.sect3 > .tema1,.tema2,.tema3,.tema4 { 
+    flex-basis: 50%;
+    
+}
+
+@font-face {
+    font-family: 'DOSPilgiMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/DOSPilgiMedium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
