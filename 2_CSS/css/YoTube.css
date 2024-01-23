@@ -7,16 +7,9 @@ body {
     margin: 0px;
 }
 
-main {
-    width: 1400px;
-    margin:auto;
-    display: flex;
-}
-
-
 header {
     display: flex;
-    height: 77px;
+    height: 100px;
 }
 
 
