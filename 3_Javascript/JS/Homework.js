@@ -7,12 +7,11 @@ function executeFn3() {
     const ul = document.getElementById("result3"); 
     ul.innerHTML = "";
 
-    for(let num = start; num <= 9; num++){
+    
 
+    for(let num = start; num <= 9; num++){
         ul.innerHTML += `<li>${start} x ${num} = ${start * num}</li>`;
         
         
-        
     }
-    
 }
