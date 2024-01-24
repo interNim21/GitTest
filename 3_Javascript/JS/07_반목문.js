@@ -132,5 +132,115 @@ function executeFn2() {
 // 요소.innerHTML = `<li>${num}</li>`;
 // -> HTML 태그를 해석해서 화면에 태그의 본 기능대로 출력
     
+12345
+12345
+12345
+12345
+12345
+
+
+// function {
+//     //4바퀴 반혹하는 for문
+//     let str = "";
+//     for(let x 1; x <=5; x++) ;{
+//         str += x;
+//         //12345
+
+//         console.log(str);
+//         //12345
+//         //12345
+//     }
+    
+    
+// }
+
+
+
+
+
+//while 문 확인
+function check16() {
+    
+
+    // 변수를 선언만 해두기
+    let val; //undefined
+
+    //취소를 누르기 전 까지 반복
+    //== 취소를 누르면 반복하지 않겠다
+    while(val !== null) {
+        // 동일 비교 연산자
+        // !== -> 값, 자료형이 모두 다른경우 true
+        // === -> 값, 자료형이 모두 같은경우 true
+
+        val = prompt("입력 후 확인"); // 변수에 prompt값 대입
+        // 확인 -> 입력한 값
+        // 취소 -> null
+
+        console.log(val);
+
+    }
+}
+
+
+
+
+function check17() {
+    
+    //메뉴 가격
+    const glnbab = 3000;
+    const ramen = 3500;
+    const donkkaseu = 5000;
+
+    // 주문 개수 카운트
+    let gcount = 0;
+    let rcount = 0;
+    let dcount = 0;
+
+    //prompt로 입력한 값을 저장할 변수 선언
+    let input; //undefined
+
+    //확인 -> 입력한 값
+    //취소 -> null
+
+    while(input !== null) { //취소 누르기 전까 지 반복함
+
+        input = prompt("메뉴 번호를 입력하세요!");
+
+        switch(input){
+            case "1" : gcount++; break;
+            case "2" : rcount++; break;
+            case "3" : dcount++; break;
+            case "null" : alert("주문 완료"); break;
+            default : alert("메뉴에 작성된 번호만 입력"); break;
+        }
+
+    }
+    alert(`김밥 : ${gcount}, 라면 : ${rcount}, 돈까스 : ${dcount}`);
+    let sum = (gcount * glnbab) + (rcount * ramen) + (dcount * donkkaseu);
+
+    alert(`총 가격 : ${sum} 원`);
+}
+
+
+// while을 for문 처럼 사용하기
+function check18() {
+    // 1부터 10까지 출력
+    let num = 1;
+    while(num < 11) {
+        console.log(num);
+        num++;
+
+    }
+
+    //10 부터 1까지 1씩 감소 (while)
+
+    let num2 = 10;
+    while(num2 > 0) {
+        console.log(num2);
+        num2--;
+    }
+    
+}
+
 
 
