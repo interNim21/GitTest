@@ -181,3 +181,9 @@ function check6(){
     }
     console.log(arr);
 }
+
+
+
+
+
+

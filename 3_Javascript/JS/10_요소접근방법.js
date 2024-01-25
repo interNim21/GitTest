@@ -187,3 +187,45 @@ document.querySelector("#user-input")
 
 
 
+
+
+
+
+
+
+// 카카오톡 채팅만들기
+
+// function readValue(){
+    
+//     const bg = document.querySelector("#chatting-bg");
+//     const input = document.querySelector("#user-input");
+
+//     if(input.value.trim().length == 0 ){
+//         alert("채팅 내용을 입력해주세요");
+
+//         input.value = ""; 
+//         input.focus(); 
+//         return; 
+//     }
+
+//     bg.innerHTML +=`<p><span>${input.value}</span></p>`;
+//     bg.scrollTop = bg.scrollHeight;
+
+//     input.value = ""; 
+//     input.focus();
+// }
+
+// document.querySelector("#user-input")
+// .addEventListener("keyup", function(e) {
+
+//     console.log(e);
+
+//     if(e.key == "Enter") { 
+//         readValue(); 
+//     }
+// });
+
+
+
+
+
