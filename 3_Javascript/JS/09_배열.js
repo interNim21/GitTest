@@ -92,6 +92,7 @@ function check2() {
 
         }
     }
+    
 // 배열광 for문 3
 function check4(){
 

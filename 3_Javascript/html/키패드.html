@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>키패드 연습문제</title>
+
+    <link rel="stylesheet" href="/01_Webfront/3_Javascript/css/키패드.css">
+</head>
+<body>
+
+    <span class="container">
+
+        <div class="inputNum">
+            <input type="number" class="numchat">
+        </div>
+
+        <div class="k-pad" id="kpd">
+            <button class="numkey" id="num1" onclick="keybtn1()">1</button>
+            <button class="numkey" onclick="keybtn1()">2</button>
+            <button class="numkey" onclick="keybtn1()">3</button>
+        </div>
+
+        <div class="k-pad">
+            <button class="numkey" onclick="keybtn1()">4</button>
+            <button class="numkey" onclick="keybtn1()">5</button>
+            <button class="numkey" onclick="keybtn1()">6</button>
+        </div>
+
+        <div class="k-pad">
+            <button class="numkey" onclick="keybtn1()">7</button>
+            <button class="numkey" onclick="keybtn1()">8</button>
+            <button class="numkey" onclick="keybtn1()">9</button>
+        </div>
+
+        <div class="k-pad">
+            <button class="numkey" onclick="keybtn1()">#</button>
+            <button class="numkey" onclick="keybtn1()">11</button>
+            <button class="numkey" onclick="keybtn1()">*</button>
+        </div>
+
+        
+        
+
+        <div class="add-reset">
+            <div class="add"><button class="btn1" onclick="addKey()">추가</button></div>
+            <div class="reset"><button class="btn2" onclick="reset()">초기화</button></div>
+        </div>
+        
+    </span>
+
+    <span class="container2">
+        <h3>전화 번호 목록</h3>
+        <div></div>
+        <div></div>
+    </span>
+
+    <script src="/01_Webfront/3_Javascript/JS/키패드.js"></script>
+</body>
+</html>
